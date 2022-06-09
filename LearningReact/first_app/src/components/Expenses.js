@@ -4,7 +4,7 @@ import React from "react";
 
 function Expenses(props) {
   return (
-    <div>
+    <div className="expenses">
       <ExpenseItem
         title={props.expenses[0].title}
         amount={props.expenses[0].amount}
