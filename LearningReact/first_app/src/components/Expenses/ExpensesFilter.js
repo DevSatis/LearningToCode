@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import './ExpensesFilter.css';
 
 const ExpensesFilter = (props) => {
-  // const [selectYear, setSelectYear] = useState("2019");
-  
+    
   
   const onDropDownChangeHandler = (event) =>{
-    props.onFilterChanges(event.target.value);
+    props.onChangeFilter(event.target.value);
   
   }
     
