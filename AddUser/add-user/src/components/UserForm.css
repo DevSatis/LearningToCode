@@ -1,0 +1,50 @@
+.user-details{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.user-details label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.user-details input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+.user-form{
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(247, 253, 251);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+.form-btn{
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    display: flex;
+    border-radius: 12px;
+  }
+  
+  .form-btn:hover,
+  .form-btn:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .form-btn:focus {
+    outline: none;
+  }
+
+  
