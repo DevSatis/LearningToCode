@@ -9,18 +9,27 @@ const UserForm = (props) => {
 
     const getEnteredValue = event =>{
         console.log(event.target.value);
-        let setNameValue = setEneteredValue(event.target.value);
+        setEneteredValue(event.target.value);
     }
 
     const ageChangeHandler = event => {
         console.log(event.target.value);
         setEneteredAge(event.target.value);
     }
-    const submitHandler = () =>{
-        if(setNameValue===""){
-            arelt("Enter the User Name")
-        }
-    }
+    
+
+    const submitHandler = (event) => {
+      event.preventDefault();
+      const userData = {
+        name: enteredValue,
+        age: enteredAge,
+        
+      };
+      props.onSaveUserData(userData);
+      setEneteredValue("");
+      setEneteredAge("");
+      
+    };
 
   return (
     <form className="user-form" onSubmit={submitHandler}>
