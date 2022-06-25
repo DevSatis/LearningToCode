@@ -74,3 +74,5 @@ console.log(myName(1, 2,3));
 const numbers = [11, 12, 13, 14]
 const [num1,  num2, num3, num4] = numbers;
 console.log(num2, num1);
+
+
