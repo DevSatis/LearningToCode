@@ -1,4 +1,7 @@
 function PrimeNumber(n) {
+    if(n <= 2 ){
+        return console.log(`${n} is a prime number`)
+    }
     let res;
      for(let i = 2;i < n;i++){
         res = n%i; 
@@ -14,3 +17,8 @@ PrimeNumber(31);
 PrimeNumber(30);
 PrimeNumber(45);
 PrimeNumber(1);
+PrimeNumber(2);
+PrimeNumber(3);
+PrimeNumber(5);
+PrimeNumber(9);
+PrimeNumber(15);
