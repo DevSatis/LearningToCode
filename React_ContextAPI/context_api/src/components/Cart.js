@@ -3,7 +3,14 @@ import './Styles.css';
 
 const Cart = () => {
   return (
-    <div><h1>Cart</h1></div>
+    <div>
+      <span style={{fontSize: 30}}> My Cart</span>
+      <br />
+      <span style={{fontSize: 30}}>Total: Rs.100</span>
+      <div className='productContainer'>
+        {}
+      </div>
+    </div>
   )
 }
 
