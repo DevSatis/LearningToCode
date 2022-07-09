@@ -16,9 +16,5 @@ function PrimeNumber(n) {
 PrimeNumber(31);
 PrimeNumber(30);
 PrimeNumber(45);
-PrimeNumber(1);
-PrimeNumber(2);
-PrimeNumber(3);
-PrimeNumber(5);
-PrimeNumber(9);
+
 PrimeNumber(15);
